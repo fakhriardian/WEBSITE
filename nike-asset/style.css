@@ -1,0 +1,695 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1350px;
+    height: auto;
+}
+
+.header{
+    width: 1350px;
+    height: 140px;
+    background-color: whitesmoke;
+    position: absolute;
+}
+
+.navbar{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    display: flex;
+    width: 25%;
+    font-family: sans-serif;
+    font-weight: 500;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 110px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+.logo{
+    width: 70px;
+    height: 30px;
+    background-size: 100%;
+    background-image: url(nike.png);
+    border-radius: 5px;
+    margin-left: -70px;
+}
+
+.logo:hover{
+    background-image: url(nikeee.png);
+    width: 68px;
+    height: 25px;
+    background-size: 100%;
+    margin-top: -4px;
+}
+
+input[type="button"]:focus{
+    outline: none;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+input[type="submit"]:focus{
+    outline: none;
+}
+
+.button{
+    border: 0px;
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    margin-right: -290px;
+    border-radius: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search{
+    border: none;
+    background-color: whitesmoke;
+    width: 180px;
+    height: 40px;
+    margin-right: -250px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.keranjang{
+    width: 40px;
+    height: 40px;
+    background-image: url(case.jpg);
+    background-size: 40px;
+    margin-right: -120px;
+}
+
+.keranjang:hover{
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.info h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.info h6 a{
+    font-weight: bold;
+    color: black;
+}
+
+.content{
+    position: absolute;
+    width: 1250px;
+    margin-top: 160px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.cover{
+    width: 100%;
+    height: 480px;
+    background-image: url(cover.png);
+    background-size: 100%;
+}
+
+.content h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+
+.left{
+    width: 620px;
+    height: auto;
+    margin-right: 700px;
+}
+
+.right{
+    width: 620px;
+    height: auto;
+    margin-left: 630px;
+    margin-top: -660px;
+}
+
+.lebron{
+    height: 660px;
+    background-image: url(lebron.png);
+    background-size: 100%;
+}
+
+.collection{
+    height: 660px;
+    background-image: url(collection.png);
+    background-size: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 1350px;
+    height: 80px;
+    background-color: black;
+}
+
+.footer p{
+    color: grey;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* men */
+
+.grid1{
+    margin-left: -800px;
+    margin-top: 40px;
+    width: 300px;
+    height: 500px;
+}
+
+.foto1{
+    width: 300px;
+    height: 300px;
+    background-image: url(freak2.jpg);
+    background-size: 100%;
+    margin-bottom: 11px;
+}
+
+.grid2{
+    margin-left: -800px;
+    width: 300px;
+    height: 500px;
+}
+
+.foto2{
+    width: 300px;
+    height: 300px;
+    background-image: url(airforce1.jpg);
+    background-size: 100%;
+    margin-bottom: 11px;
+}
+
+.grid3{
+    margin-left: -150px;
+    margin-top: -1040px;
+    width: 300px;
+    height: 500px;
+}
+
+.foto3{
+    width: 300px;
+    height: 300px;
+    background-image: url(kybrid.jpg);
+    background-size: 100%;
+    margin-bottom: 11px;
+}
+
+.grid4{
+    margin-left: -150px;
+    margin-top: 40px;
+    width: 300px;
+    height: 500px;
+}
+
+.foto4{
+    width: 300px;
+    height: 300px;
+    background-image: url(jordanwhynot.jpg);
+    background-size: 100%;
+    margin-bottom: 11px;
+}
+
+.grid5{
+    margin-left: 500px;
+    margin-top: -1040px;
+    width: 300px;
+    height: 500px;
+}
+
+.foto5{
+    width: 300px;
+    height: 300px;
+    background-image: url(nikezoom.jpg);
+    background-size: 100%;
+    margin-bottom: 11px;
+}
+
+.grid6{
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 300px;
+    height: 500px;
+}
+
+.foto6{
+    width: 300px;
+    height: 300px;
+    background-image: url(nikeLebron.jpg);
+    background-size: 100%;
+    margin-bottom: 11px;
+}
+
+.foto7{
+    width: 300px;
+    height: 300px;
+    background-image: url(nikeafwomen.jpg);
+    background-size: 100%;
+    background-position-y:335px ;
+    margin-bottom: 11px;
+}
+
+.grid1 a,.grid2 a,.grid3 a,.grid4 a,.grid5 a,.grid6 a{
+    text-decoration: none;
+}
+
+.title, .price{
+    color: black;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.type{
+    color: rgb(139, 139, 139);
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: left;
+    line-height: 40px;
+}
+
+.stock{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.stock:hover{
+    color: tomato;
+}
+
+/* nike freak2 */
+
+.gridfreak1{
+    margin-left: -800px;
+    width: 400px;
+    height: 400px;
+    background-image: url(freak2.jpg);
+    background-size: 100%;
+    background-position-y: -30px;
+    margin-top: 20px;
+}
+
+.gridfreak2{
+    margin-left: -800px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(freakbot.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.gridfreak3{
+    margin-left: 50px;
+    margin-top: -820px;
+    width: 400px;
+    height: 400px;
+    background-image: url(freakside.jpg);
+    background-size: 100%;
+    background-position-y: -90px;
+}
+
+.gridfreak4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(freaktop.jpg);
+    background-size: 100%;
+    background-position-y: -50px;
+}
+
+.gridforce1{
+    margin-left: -800px;
+    width: 400px;
+    height: 400px;
+    background-image: url(airforce1.jpg);
+    background-size: 100%;
+    background-position-y: -30px;
+    margin-top: 20px;
+}
+
+.gridforce2{
+    margin-left: -800px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(airforce1front.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.gridforce3{
+    margin-left: 50px;
+    margin-top: -820px;
+    width: 400px;
+    height: 400px;
+    background-image: url(airforce1side.jpg);
+    background-size: 100%;
+    background-position-y: -90px;
+}
+
+.gridforce4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(airforce1bot.jpg);
+    background-size: 100%;
+    background-position-y: -50px;
+}
+
+.gridkybrid1{
+    margin-left: -800px;
+    width: 400px;
+    height: 400px;
+    background-image: url(kybrid.jpg);
+    background-size: 100%;
+    background-position-y: -30px;
+    margin-top: 20px;
+}
+
+.gridkybrid2{
+    margin-left: -800px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(kybridbot.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.gridkybrid3{
+    margin-left: 50px;
+    margin-top: -820px;
+    width: 400px;
+    height: 400px;
+    background-image: url(kybridside.jpg);
+    background-size: 100%;
+    background-position-y: -90px;
+}
+
+.gridkybrid4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(kybridtop.jpg);
+    background-size: 100%;
+    background-position-y: -50px;
+}
+
+.gridwhynot1{
+    margin-left: -800px;
+    width: 400px;
+    height: 400px;
+    background-image: url(jordanwhynot.jpg);
+    background-size: 100%;
+    background-position-y: -30px;
+    margin-top: 20px;
+}
+
+.gridwhynot2{
+    margin-left: -800px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(whynotbot.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.gridwhynot3{
+    margin-left: 50px;
+    margin-top: -820px;
+    width: 400px;
+    height: 400px;
+    background-image: url(whynotside.jpg);
+    background-size: 100%;
+    background-position-y: -90px;
+}
+
+.gridwhynot4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(whynottop.jpg);
+    background-size: 100%;
+    background-position-y: -50px;
+}
+
+.gridzoom1{
+    margin-left: -800px;
+    width: 400px;
+    height: 400px;
+    background-image: url(nikezoom.jpg);
+    background-size: 100%;
+    background-position-y: -30px;
+    margin-top: 20px;
+}
+
+.gridzoom2{
+    margin-left: -800px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(zoombot.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.gridzoom3{
+    margin-left: 50px;
+    margin-top: -820px;
+    width: 400px;
+    height: 400px;
+    background-image: url(zoomside.jpg);
+    background-size: 100%;
+    background-position-y: -90px;
+}
+
+.gridzoom4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(zoomtop.jpg);
+    background-size: 100%;
+    background-position-y: -50px;
+}
+
+.gridlebron1{
+    margin-left: -800px;
+    width: 400px;
+    height: 400px;
+    background-image: url(nikeLebron.jpg);
+    background-size: 100%;
+    background-position-y: -30px;
+    margin-top: 20px;
+}
+
+.gridlebron2{
+    margin-left: -800px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(lebronbot.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.gridlebron3{
+    margin-left: 50px;
+    margin-top: -820px;
+    width: 400px;
+    height: 400px;
+    background-image: url(lebronside.jpg);
+    background-size: 100%;
+    background-position-y: -90px;
+}
+
+.gridlebron4{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(lebrontop.jpg);
+    background-size: 100%;
+    background-position-y: -50px;
+}
+
+.gridfreakleft{
+    width: 300px;
+    height: 700px;
+    margin-left: 920px;
+    margin-top: -830px;
+}
+
+.gridfreakleft p{
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.gridfreakleft h1{
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: normal;
+}
+
+.table1{
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+.table1 select{
+    width: 200px;
+    height: 30px;
+}
+
+.table1 thead input{
+    width: 200px;
+    height: 30px;
+}
+
+.table1 thead th{
+    text-align: left;
+    font-weight: normal;
+}
+
+.table1 tbody tr td{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+.table1 tbody tr input{
+    cursor: pointer;
+}
+
+.table1 tfoot tr input{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    font-size: medium;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.table1 tfoot tr input:hover{
+    background-color: rgb(82, 82, 82);
+    transition: all 0.3s;
+}
+
+.table1 tfoot tr td{
+    text-align: center;
+}
+
+.p p{
+    line-height: 30px;
+}
+
+.table2{
+    font-family: sans-serif;
+    font-size: large;
+    text-align: left;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-left: 2px solid grey;
+    border-bottom: 5px solid black;
+}
+
+.table2 thead tr td{
+    color: black;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.table2 tbody tr td{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.table2 tbody a{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+
+.table2 tbody a:hover{
+    color: rgb(154, 154, 154);
+    transition: all 0.3s;
+}
+
+.h1{
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: black;
+    margin-top: 20px;
+    margin-right: 1055px;
+}
+
+/* info */
+
+.textinfo{
+    width: 720px;
+    height: 400px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.titlecovid{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 30px;
+}
+
+.covidtext{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 27px;
+}
